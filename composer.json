@@ -1,0 +1,35 @@
+{
+    "name": "creode/business-central-oauth2",
+    "description": "",
+    "authors": [
+        {
+            "name": "Creode",
+            "email": "contact@creode.co.uk"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BusinessCentralOauth2\\": "",
+            "Modules\\BusinessCentralOauth2\\App\\": "app/",
+            "Modules\\BusinessCentralOauth2\\Database\\Factories\\": "database/factories/",
+            "Modules\\BusinessCentralOauth2\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\BusinessCentralOauth2\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "league/oauth2-client": "^2.7",
+        "illuminate/support": "^10.0"
+    }
+}
