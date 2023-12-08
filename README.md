@@ -7,7 +7,7 @@ This package provides Microsoft Dynamics 365 Business Central OAuth 2.0 support 
 You can install the package via composer:
 
 ```bash
-composer require creode/business-central-oauth2-client
+composer require creode/business-central-oauth2
 ```
 
 ## Configuration
