@@ -80,7 +80,7 @@ $accessToken = $provider->getAccessToken('client_credentials', [
 
 $request = $provider->getAuthenticatedRequest(
     'GET',
-    'https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environmentName}/ODataV4/Company(\'{CompanyName}\')/liviBrands',
+    'https://api.businesscentral.dynamics.com/v2.0/{tenantId}/{environmentName}/',
     $accessToken
 );
 
