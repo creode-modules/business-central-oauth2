@@ -1,6 +1,6 @@
 {
     "name": "creode/business-central-oauth2",
-    "description": "",
+    "description": "A PHP package for seamless OAuth2 authentication with Microsoft Dynamics 365 Business Central, offering a streamlined integration and secure access to Business Central APIs.",
     "authors": [
         {
             "name": "Creode",
