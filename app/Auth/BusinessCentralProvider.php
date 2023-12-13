@@ -8,7 +8,6 @@ use League\OAuth2\Client\Token\AccessToken;
 use League\OAuth2\Client\Provider\AbstractProvider;
 use League\OAuth2\Client\Provider\GenericResourceOwner;
 use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
-use Modules\BusinessCentralOauth2\app\Auth\BusinessCentralUser;
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 
 class BusinessCentralProvider extends AbstractProvider
