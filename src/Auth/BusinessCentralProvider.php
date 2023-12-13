@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\BusinessCentralOauth2\app\Auth;
+namespace Creode\BusinessCentralOauth2\Auth;
 
 use InvalidArgumentException;
 use Psr\Http\Message\ResponseInterface;
@@ -108,7 +108,8 @@ class BusinessCentralProvider extends AbstractProvider
     /**
      * @inheritdoc
      */
-    public function getBaseAuthorizationUrl() {
+    public function getBaseAuthorizationUrl()
+    {
         return $this->urlAuthorize;
     }
 
@@ -123,14 +124,16 @@ class BusinessCentralProvider extends AbstractProvider
     /**
      * @inheritdoc
      */
-    public function getResourceOwnerDetailsUrl(AccessToken $token) {
+    public function getResourceOwnerDetailsUrl(AccessToken $token)
+    {
         return $this->urlResourceOwnerDetails;
     }
 
     /**
      * @inheritdoc
      */
-    protected function getDefaultScopes() {
+    protected function getDefaultScopes()
+    {
         return $this->scopes;
     }
 
