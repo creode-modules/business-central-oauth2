@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\BusinessCentralOauth2\app\Auth;
+namespace Creode\BusinessCentralOauth2\Auth;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 

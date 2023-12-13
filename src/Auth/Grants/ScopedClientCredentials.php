@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\BusinessCentralOauth2\app\Auth\Grants;
+namespace Creode\BusinessCentralOauth2\Auth\Grants;
 
 use League\OAuth2\Client\Grant\ClientCredentials;
 

@@ -8,31 +8,12 @@
             "email": "contact@creode.co.uk"
         }
     ],
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Modules\\BusinessCentralOauth2\\app\\Providers\\BusinessCentralOauth2ServiceProvider"
-            ],
-            "aliases": {
-
-            }
-        }
-    },
     "autoload": {
         "psr-4": {
-            "Modules\\BusinessCentralOauth2\\": "",
-            "Modules\\BusinessCentralOauth2\\App\\": "app/",
-            "Modules\\BusinessCentralOauth2\\Database\\Factories\\": "database/factories/",
-            "Modules\\BusinessCentralOauth2\\Database\\Seeders\\": "database/seeders/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Modules\\BusinessCentralOauth2\\Tests\\": "tests/"
+            "Creode\\BusinessCentralOauth2\\": "src/"
         }
     },
     "require": {
-        "league/oauth2-client": "^2.7",
-        "illuminate/support": "^10.0"
+        "league/oauth2-client": "^2.7"
     }
 }
