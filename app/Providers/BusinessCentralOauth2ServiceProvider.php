@@ -3,9 +3,6 @@
 namespace Modules\BusinessCentralOauth2\app\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Modules\BusinessCentralOauth2\app\Auth\BusinessCentralProvider;
-use Modules\BusinessCentralOauth2\app\Auth\Grants\ScopedClientCredentials;
-
 class BusinessCentralOauth2ServiceProvider extends ServiceProvider
 {
     protected string $moduleName = 'BusinessCentralOauth2';
@@ -18,7 +15,6 @@ class BusinessCentralOauth2ServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->registerConfig();
-        $this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');
     }
 
     /**
