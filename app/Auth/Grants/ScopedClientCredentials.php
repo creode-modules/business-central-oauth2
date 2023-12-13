@@ -28,9 +28,4 @@ class ScopedClientCredentials extends ClientCredentials
             'scope',
         ];
     }
-
-    protected function getScope()
-    {
-        return config('business-central-oauth2.scope');
-    }
 }
